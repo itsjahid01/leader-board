@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;;
+}
+
+/* common styles */
+body{
+    background-color:#E5E5E5;;
+}
+.container{
+    width: 870px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 38px;
+}
+
+/* header section */
+
+header{
+    background-color:  #562EFF;;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 250px ;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+nav .logo{
+    width: 42px;
+    margin-right: 16px;
+}
+.nav-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.nav-items ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-items ul li{
+    margin-right: 36px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* Top player section */
+
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.top-players-title ,.top-blogs-title,.latest-courses-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+    margin-bottom: 40px;
+}
+.container .top-players img{
+    width: 56px;
+    margin-right: 16px;
+}
+hr{
+    margin-top: 45px;
+}
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.player,.blog{
+    display: flex;
+    align-items: center;
+}
+.container .top-blogs img{
+    width: 177px;
+    margin-right: 16px;
+}
+.top-blogs-title{
+    margin-top: 30px;
+}
+
+/* latest courses */
+
+
+.container .latest-courses img{
+    width: 224px;
+}
+.container .latest-courses .fa-star{
+    width: 13px;
+}
+.container .latest-courses .fa-clock{
+    font-size: 14.6913px;
+   
+}
+.container .latest-courses .time-ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.latest-courses{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+.container .latest-courses .time-ratings .fa-clock{
+    font-size: 13px;
+}
+.container .latest-courses .course{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.bottom-section{
+    margin-bottom: 30px;
+}
